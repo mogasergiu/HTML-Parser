@@ -1,4 +1,4 @@
-/* MOGA SERGIU 312CB */
+/* MOGA SERGIU */
 #include "queue.h"
 
 int getChildNo(char *id) {
