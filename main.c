@@ -1,4 +1,4 @@
-/* MOGA SERGIU 312CB */
+/*  */
 #include "queue.h"
 
 FILE** openFiles(int argc, char **argv) {

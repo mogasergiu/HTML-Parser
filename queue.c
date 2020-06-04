@@ -1,4 +1,4 @@
-/* MOGA SERGIU 312CB */
+/*  */
 #include "queue.h"
 
 void* InitQ(size_t size) {

@@ -1,4 +1,4 @@
-/* MOGA SERGIU 312CB */
+/*  */
 #include "lib.h"
 
 void removeSurplusChar(char *string) {
