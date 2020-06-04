@@ -1,4 +1,4 @@
-/* MOGA SERGIU 312CB */
+/* MOGA SERGIU */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
