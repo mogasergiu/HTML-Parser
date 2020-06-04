@@ -1,17 +1,6 @@
 /*  */
 #include "lib.h"
 
-/*
- *  Pentru a ușura citirea codului HTML din fișier, vi se pune la dispoziție
- *  următoarea funcție. Aceasta primeste un singur caracter (fișierul va fi
- *  citit caracter cu caracter în afara acestei funcții, iar ea va fi apelată
- *  de fiecare dată) și, în funcție de caracter, trece dintr-o stare în alta.
- *  Comentariile din cod arată o sugestie (neobligatorie) despre cum ar trebui
- *  completată funcția pentru a construi arborele.
- *
- *  Este, cu alte cuvinte, un automat de stări, unde starea inițială este PARSE_CONTENTS.
- */
-
 TParseState Interpret(TParseState currentState, char c)
 {
     TParseState nextState = PARSE_ERROR;
