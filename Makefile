@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -g -Werror -Wextra
 
-build: tema3
+build: HPAR
 
-tema3: interpret.o tree.o cmd.o main.o queue.o
+HPAR: interpret.o tree.o cmd.o main.o queue.o
 	$(CC) $(CFLAGS) $^ -o $@
 
 main.o: main.c
@@ -22,4 +22,4 @@ queue.o: queue.c
 	$(CC) $(CFLAGS) $^ -c -o $@
 
 clean:
-	rm *.o tema3
+	rm *.o HPAR
